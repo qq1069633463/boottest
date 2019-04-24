@@ -12,7 +12,7 @@
   	select * from student
   </select>
   
-  <insert id="insertStudent" parameterType="Student" >
+  <insert id="insertStudent" parameterType="com.example.entry.Student" >
   	insert into student values(#{id},#{name},#{sex},#{age})
   </insert>
   

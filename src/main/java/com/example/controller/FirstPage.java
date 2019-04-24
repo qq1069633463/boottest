@@ -14,7 +14,7 @@ public class FirstPage {
 		return "admin/login";
 	}
 	
-	@RequestMapping("/index.php")
+	@RequestMapping("/index")
 	public String index(HttpServletRequest request) {
 		Cookie[] cookies=request.getCookies();
 		if (cookies!=null) {
